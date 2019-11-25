@@ -3,3 +3,7 @@ ans: It creates an initial git repository with no commits. It also gives us a li
 
 2. How is the staging area different from the working directory and the repository? What value do you think it offers?
 ans:staging area holds the changes for sometime before committing it to the main repository. It also helps in committing multiple files at once.
+
+3. How is the staging area different from the working directory and the repository? What value do you think it offers?
+ans: You can gradually make changes add them to the staging area and commit all the files related to a logical change at once. Also you can make sure you are committing
+what you want to commit by checking git diff --staged
